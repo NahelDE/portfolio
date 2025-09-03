@@ -4,3 +4,24 @@ section { padding:2rem; max-width:800px; margin:auto; }
 h2 { border-bottom:2px solid #333; padding-bottom:0.5rem; }
 .project-card { border:1px solid #ccc; padding:1rem; margin:1rem 0; border-radius:8px; }
 footer { text-align:center; padding:1rem; background:#f4f4f4; }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.html {width: 95%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
